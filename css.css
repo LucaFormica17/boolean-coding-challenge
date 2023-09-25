@@ -1,0 +1,141 @@
+@import url(font.css);
+body{
+    max-width: 1920px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    font-family: nunito sans;
+   
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Stile della barra di navigazione (navbar) */
+.transparent-rectangle {
+    background-color: rgba(0, 0, 0, 0.557); /* Colore di sfondo trasparente (bianco con opacità al 70%) */
+    padding: 0px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Ombra leggera */
+    height: 500px;
+    width: 700px; /* Larghezza del rettangolo, puoi regolare questa percentuale */
+    max-width: 100%; /* Larghezza massima del rettangolo */
+    margin: auto; /* Per centrare il rettangolo orizzontalmente */
+}
+.spacer {
+    height: 150px; /* Altezza desiderata per il rettangolo vuoto */
+    margin-top: 0px; /* Rimuovi il margine superiore per mantenere il rettangolo vicino */
+}
+
+.transparent-rectangle .logo-container {
+    text-align: center; /* Per centrare il logo orizzontalmente */
+    margin-top: 20px; /* Spazio sopra il logo */
+}
+
+.transparent-rectangle nav ul {
+    list-style: none;
+    padding:5px;
+    display: flex;
+    justify-content: center;
+    background-color: #00DD00;
+    margin-left:  50px;
+    margin-right: 50px;
+
+}
+
+.transparent-rectangle nav ul li {
+    margin-right: 20px;
+    background-color: rgb(208, 214, 202);
+    border: 0.5px solid black;
+    border-radius: 1px;
+    padding: 1px 1px
+    
+}
+
+.transparent-rectangle nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: regular;
+    font-size: 8px;
+    
+    text-align: center;
+    justify-content: center;
+margin-top: 10px;
+   
+}
+
+.transparent-rectangle h1 {
+    font-size: 24px;
+    color: #00DD00;
+}
+
+.transparent-rectangle p {
+    font-size: 18px;
+    color: #fffefe;
+    margin-top: 2px;
+}
+.logo img {
+max-width: 100px;
+padding-top: 40px;
+}
+.orange-rectangle{
+    background-color: orange;
+    width: 230px;
+    height: 12px;
+   margin-left: 0px;
+   border-radius: 2px;
+}
+.green-rectangle{
+    background-color:#00DD00;
+    width: 400px;
+    height: 12px;
+    margin-left: 0px;
+    border-radius: 2px;
+}
+.red-rectangle{
+    background-color:rgb(225, 108, 108) ;
+    width: 150px;
+    height: 12px;
+    margin-left: 0px;
+    border-radius: 2px;
+}
+.testo h2{
+ font-size: 14px;
+font-weight: bold;
+color: #fffefe;
+
+
+}
+.testo{
+text-align: left;
+margin-left:50px;
+margin-top: 0;
+font-family: nunito sans;
+}
+.testo p{
+    font-size: 10px;
+    margin-top: 1px;
+}
+.square {
+    width: 10px; 
+    height: 10px; 
+    background-color: rgb(255, 255, 255); 
+    display: inline-block; 
+    margin-right: 1px; 
+}
+.contenuto{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
